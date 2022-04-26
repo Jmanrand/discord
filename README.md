@@ -27,7 +27,12 @@ python3 -m pip install -r requirements.yml
 ### 4. Create access.secret file with your access token
 https://pcstrike.com/how-to-get-discord-token/#:~:text=To%20find%20your%20token%2C%20click,What%20is%20this%3F&text=Right%2Dclick%20the%20value%20on,edit%20value%2C%20then%20copy%20it.
 
-### 5. Add channel id and command to daily.py
+### 5. Fill in desired values for channel id and command to daily.py
+Example:
+```
+"channel_id": "906671688463290420",
+"payload": {"content": "!daily"}
+```
 
 ### 6. Run script
 ```

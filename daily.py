@@ -11,6 +11,10 @@ json_dict = {
         {
             "channel_id": hooli_daily_channel_id,
             "payload": {"content": "!daily"}
+        },
+        {
+            "channel_id": clem_cashier_channel,
+            "payload": {"content":"$collect"}
         }
     ]
 }
